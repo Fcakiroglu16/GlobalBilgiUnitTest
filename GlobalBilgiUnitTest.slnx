@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/app/">
+    <Project Path="ConsoleApp/ConsoleApp.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="ConsoleApp.IntegrationTests/ConsoleApp.IntegrationTests.csproj" />
+    <Project Path="ConsoleApp.UnitTests/ConsoleApp.UnitTests.csproj" />
+  </Folder>
+</Solution>
