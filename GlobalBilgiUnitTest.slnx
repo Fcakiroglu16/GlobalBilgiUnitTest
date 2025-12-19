@@ -1,9 +1,7 @@
 <Solution>
-  <Folder Name="/app/">
-    <Project Path="ConsoleApp/ConsoleApp.csproj" />
-  </Folder>
-  <Folder Name="/tests/">
-    <Project Path="ConsoleApp.IntegrationTests/ConsoleApp.IntegrationTests.csproj" />
-    <Project Path="ConsoleApp.UnitTests/ConsoleApp.UnitTests.csproj" />
-  </Folder>
+  <Project Path="App.API/App.API.csproj" Id="cf48454a-e385-4392-a3d6-39ac4a70751a" />
+  <Project Path="App.Repository/App.Repository.csproj" Id="7a9d6290-b7c7-4b0d-966c-b538de5e1ad6" />
+  <Project Path="App.Services.IntegrationTests/App.Services.IntegrationTests.csproj" Id="5c9c71c0-f83c-46d4-a680-e5b5ea04cef2" />
+  <Project Path="App.Services.UnitTests/App.Services.UnitTests.csproj" Id="4ac64314-51eb-4f83-9cf3-210b700bbb78" />
+  <Project Path="App.Services/App.Services.csproj" Id="c431327b-09b1-4400-a37c-517a64e3c42d" />
 </Solution>
